@@ -1,0 +1,134 @@
+.info {
+  .grid {
+    gap: 0 20px;
+    align-items: center;
+    grid-template-columns: 1fr 3fr;
+    
+  }
+  h1 {
+    padding: 20px 20px;
+    font-size: 30px; 
+    font-weight: 700; 
+    color: $white;
+  }
+  h3 {
+    text-align: left;
+    color: $white;
+    font: {
+      size: 18px;
+    }
+    span {
+      color: $black_78;
+    }
+  }
+  small {
+    display: block;
+    margin-top: 20px;
+    color: $white;
+    font: {
+      size: 12px;
+      weight: 100;
+    }
+  }
+}
+
+
+
+.career {
+  grid-template-columns: 2fr 1fr; 
+}
+
+
+.card-list {
+  .thumb {
+    background-image: url($url + "outputs/laptop_01.png");
+  }
+}
+
+
+.technology {
+  .grid {
+    align-items: baseline;
+    gap: 0 15px;
+    .h3 {
+      margin-bottom: 10px; 
+      padding: 3px 10px;
+    }
+  }
+  .tag-group {
+    li {
+      background-color: $tag_gray;
+      color: $red;
+    }
+  }
+}
+
+
+
+
+.detail {
+  box-sizing: border-box;
+  .head {
+    padding-top: 20px;
+    h3 {
+      margin-bottom: 20px;
+      color: $white; 
+      font-size: 18px;
+      font-weight: 500;
+    }
+    dl {
+      display: flex;
+      gap: 0 2px;
+      flex-wrap: wrap;
+      dt {
+        flex-basis: 80px;
+        font-size: 13px;
+        font-weight: 300;
+        color: $white; 
+      }
+      dd {
+        font-size: 13px;
+        font-weight: 300;
+        color: $white; 
+      }
+      + dl {
+        margin-top: 10px;
+      }
+    }
+    .tag-group {
+      display: flex;
+      gap: 0 4px;
+    }
+  }
+  .body {
+    display: grid;
+    gap: 20px 0;
+    container-name: layer-container; 
+    container-type: inline-size;
+    margin-top: 40px; 
+    padding-top: 20px;
+    border-top: 1px solid $gray;
+
+    .half {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0 15px;
+    }
+    .detail-txt-list {
+      li {
+        margin-top: 40px;
+        color: $white;
+        font-size: 13px;
+        font-weight: 300;
+        h4 {
+          margin-bottom: 20px;
+          padding-bottom: 5px;
+          border-bottom: 1px solid $gray;
+          font-size: 16px;
+          color: $white;
+          font-weight: 500; 
+        }
+      }
+    }
+  }
+}

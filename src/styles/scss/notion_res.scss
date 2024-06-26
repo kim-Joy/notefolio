@@ -1,0 +1,48 @@
+/* ====================================
+ container query  ~764px
+==================================== */
+@container res-container (max-width: 764px) {
+  .card-list > li {flex-basis: calc(33.333% - 10px);}
+}
+
+
+/* ====================================
+ container query  ~482px
+==================================== */
+@container res-container (max-width: 482px) {
+  .info .grid {
+    grid-template-columns: auto;
+    gap: 20px 0;
+  }
+
+  .career {
+    grid-template-columns: auto; 
+    gap: 30px 0; 
+  }
+
+  .grid-half {
+    grid-template-columns: auto; 
+    gap: 30px 0;
+  }
+
+  .card-list > li {
+    flex-basis: 100%;
+  }
+
+  .body {
+    .half {
+      grid-template-columns: auto;
+      gap: 10px 0;
+    }
+  }
+}
+
+
+
+
+/* ====================================
+ container query  ~482px
+==================================== */
+@container layer-container (max-width: 482px) {
+  
+}

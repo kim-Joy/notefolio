@@ -1,0 +1,33 @@
+
+.notion {max-width: 768px; margin: 0 auto; padding: 0 20px;} 
+
+
+
+article {
+  padding: 0 20px;
+  + article {
+    margin-top: 70px; 
+  }
+  + .hr {
+    margin: 40px auto;
+  }
+  h2 {
+    padding: 3px 10px;
+    font-size: 18px;
+    font-weight: 500;
+    color: $black;
+    &.h2 {
+      margin-bottom: 10px;
+      color: $white;
+    }
+  }
+
+  .h3 {
+    font-size: 13px;
+    color: $white;
+  }
+  &:last-child {
+    padding-bottom: 80px;
+  }
+}
+
