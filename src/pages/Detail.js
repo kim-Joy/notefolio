@@ -20,7 +20,7 @@ function Detail() {
   }
 
   return (
-    <div className="detail">
+    <div className="detail notion_inner">
       <div className="head">
         <h3>{item.title}</h3>
         <dl>

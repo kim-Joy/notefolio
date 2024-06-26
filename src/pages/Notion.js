@@ -10,7 +10,7 @@ import Technology from 'components/Technology';
 function Notion() { 
    
   return(
-     <div className="resume list">
+     <div className="notion notion_inner">
          <Header />
         <Info />
          <Career />
