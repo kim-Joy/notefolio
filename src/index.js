@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { DataProvider } from 'components/DataContext';
 import NotFound from "pages/NotFound";
-import Notion from "pages/Notion";
+import Notefolio from "pages/Notefolio";
 import Detail from "pages/Detail";
 
 import 'styles/scss/import.scss';
@@ -14,7 +14,7 @@ root.render(
   <BrowserRouter basename={process.env.PUBLIC_URL}>
     <DataProvider> 
       <Routes>
-        <Route path="/" element={<Notion/>}></Route>
+        <Route path="/" element={<Notefolio/>}></Route>
         <Route path="/detail/:id" element={<Detail/>}></Route>
         <Route path="/*" element={<NotFound/>}></Route>
       </Routes>
