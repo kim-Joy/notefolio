@@ -36,6 +36,11 @@
 
 .career {
   grid-template-columns: 2fr 1fr; 
+  .list {
+    li > p  {
+      padding: 0.2em 0.2em;
+    } 
+  }
 }
 
 
@@ -102,7 +107,7 @@
   }
   .body {
     display: grid;
-    gap: 20px 0;
+    gap: 80px 0;
     container-name: layer-container; 
     container-type: inline-size;
     margin-top: 40px; 
@@ -112,7 +117,7 @@
     .half {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      gap: 0 15px;
+      gap: 0 40px;
     }
     .detail-txt-list {
       li {

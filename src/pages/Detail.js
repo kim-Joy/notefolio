@@ -2,6 +2,9 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import { Link } from 'react-router-dom';
+
+
+import Header from 'components/Header';
 import { useDataContext } from 'components/DataContext';
 
 const importAll = (r) => r.keys().map(r);
@@ -21,6 +24,7 @@ function Detail() {
 
   return (
     <div className="detail notion_inner">
+      <Header />
       <div className="head">
         <h3>{item.title}</h3>
         <dl>

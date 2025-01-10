@@ -107,7 +107,7 @@ img {max-width: 100%; vertical-align: middle;}
 .list {
   > li {
     position: relative;
-    padding: 2px 2px 2px 20px;
+    padding-left: 20px;
     font-size: 14px; 
     font-weight: 300;
     color: $black;
@@ -116,24 +116,25 @@ img {max-width: 100%; vertical-align: middle;}
     }
     &:after {
       content: '';
-      position: absolute; top: 8px; left: 14px;
+      position: absolute; top: 11px; left: 12px;
       width: 3px; height: 3px;
       border-radius: 100%;
       background-color: $black;
     }
     + li {
-      margin-top: 5px;
+      margin-top: 2px;
     }
   }
   
   .depth {
     margin-top: 4px;
+    margin-left: 10px;
     li {
       padding-left: 10px;
       font-size: 13px;
       &:after {
         content: '';
-        position: absolute; top: 8px; left: 3px;
+        position: absolute; top: 10px; left: 0;
         width: 2px; height: 2px;
         border-radius: 100%;
         box-sizing: content-box;
@@ -147,19 +148,20 @@ img {max-width: 100%; vertical-align: middle;}
 }
 
 .toggle {
+
   .toggle-summary {
     position: relative;
     margin-top: 4px;
     padding-left: 8px;
     color: $black;
     font: {
-      family: 'Aritadotum';
-      size: 14px;
+      family: 'Aritadotum', 'Pretendard', '맑은 고딕','돋움', 'Lacquer', -apple-system, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo';
       weight: 300;
+      size: 14px;
     }
     &:after {
       content: '';
-      position: absolute; top: 3px; left: 0;
+      position: absolute; top: 6px; left: 0;
       border: 4px solid transparent;
       border-left-color: $black;
     }

@@ -11,7 +11,7 @@ function Notion() {
    
   return(
      <div className="notion notion_inner">
-         <Header />
+        <Header />
         <Info />
          <Career />
          <div className="hr full"></div>

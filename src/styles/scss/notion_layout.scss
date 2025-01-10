@@ -1,4 +1,8 @@
 
+html, body {
+  font-family: 'Aritadotum', 'Pretendard', '맑은 고딕','돋움', 'Lacquer', -apple-system, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo';
+  font-weight: 500;
+}
 .notion_inner {max-width: 768px; margin: 0 auto; padding: 0 20px;} 
 
 
@@ -12,6 +16,7 @@ article {
     margin: 40px auto;
   }
   h2 {
+    margin-bottom: 8px;
     padding: 3px 10px;
     font-size: 18px;
     font-weight: 500;
