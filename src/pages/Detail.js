@@ -24,7 +24,6 @@ function Detail() {
 
   return (
     <div className="detail notion_inner">
-      <Header />
       <div className="head">
         <h3>{item.title}</h3>
         <dl>

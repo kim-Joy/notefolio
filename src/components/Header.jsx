@@ -17,10 +17,10 @@ function Header() {
         <div clasName="header_util_left">
           <ul>
             <li>
-              ㄴㄴㄴㄴ
+              util
             </li>
             <li><button>만들어봤어요</button></li>
-            <li><button>{item.title}</button></li>
+            <li><button>탭</button></li>
           </ul>
         </div>
 
