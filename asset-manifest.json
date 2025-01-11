@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/notefolio/static/css/main.9d577e06.css",
-    "main.js": "/notefolio/static/js/main.05d015c0.js",
+    "main.css": "/notefolio/static/css/main.e1fe5c00.css",
+    "main.js": "/notefolio/static/js/main.dc42e4e8.js",
     "static/media/laptop_05.png": "/notefolio/static/media/laptop_05.3a21a71d29b8cb8b03d4.png",
     "static/media/laptop_03.png": "/notefolio/static/media/laptop_03.acb35609251964649258.png",
     "static/media/laptop_08.png": "/notefolio/static/media/laptop_08.454618afa60cbf5291a8.png",
@@ -23,11 +23,11 @@
     "static/media/phone_09.png": "/notefolio/static/media/phone_09.4c4ff7ff3bc213d69300.png",
     "static/media/phone_07.png": "/notefolio/static/media/phone_07.c53eba7a7719379efa4d.png",
     "index.html": "/notefolio/index.html",
-    "main.9d577e06.css.map": "/notefolio/static/css/main.9d577e06.css.map",
-    "main.05d015c0.js.map": "/notefolio/static/js/main.05d015c0.js.map"
+    "main.e1fe5c00.css.map": "/notefolio/static/css/main.e1fe5c00.css.map",
+    "main.dc42e4e8.js.map": "/notefolio/static/js/main.dc42e4e8.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d577e06.css",
-    "static/js/main.05d015c0.js"
+    "static/css/main.e1fe5c00.css",
+    "static/js/main.dc42e4e8.js"
   ]
 }
